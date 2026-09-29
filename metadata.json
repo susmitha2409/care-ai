@@ -1,0 +1,6 @@
+{
+  "name": "CareSim AI",
+  "description": "Agentic Virtual Patient Simulation Platform for healthcare training and education",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
