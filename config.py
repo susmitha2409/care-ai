@@ -11,7 +11,7 @@ DB_PATH = os.environ.get("CARESIM_DB_PATH", str(BASE_DIR / "caresim.db"))
 # Groq Configuration
 # Prioritize environment variables, then fallback to Streamlit secrets if running inside Streamlit
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
-GROQ_MODEL = os.environ.get("GROQ_MODEL", "llama-3.3-70b-versatile")
+GROQ_MODEL = os.environ.get("GROQ_MODEL", "openai/gpt-oss-120b")
 GROQ_TEMPERATURE = float(os.environ.get("GROQ_TEMPERATURE", "0.6"))
 GROQ_MAX_TOKENS = int(os.environ.get("GROQ_MAX_TOKENS", "1024"))
 
